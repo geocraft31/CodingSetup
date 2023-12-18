@@ -5,7 +5,7 @@ if( -Not $hasAdminRights)
     Write-Host "Please execute the script with admin rights."
     exit
 }
-
+ 
 # install oh my posh
 winget install JanDeDobbeleer.OhMyPosh -s winget
 
